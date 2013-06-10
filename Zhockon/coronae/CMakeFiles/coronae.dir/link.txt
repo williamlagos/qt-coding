@@ -1,0 +1,1 @@
+/usr/bin/c++  -fPIC  -w  -shared -Wl,-soname,libcoronae.so -o ../library/libcoronae.so CMakeFiles/coronae.dir/coronae.cc.o -L/home/william/Package/0.3.x/0.3.2/zhockon.src/library ../library/libjson.so ../library/libjsonrpc.so -Wl,-rpath,/home/william/Package/0.3.x/0.3.2/zhockon.src/library 

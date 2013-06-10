@@ -1,0 +1,24 @@
+﻿Build started 01/08/2011 02:31:04.
+Project "C:\Users\Caokzu\Package\zhockon_0.3.2\core\zhockon-python.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "zhockon-python.dir\Release\zhockon-python.lastbuildstate".
+InitializeBuildStatus:
+  Creating "zhockon-python.dir\Release\zhockon-python.unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/Users/Caokzu/Package/zhockon_0.3.2/core/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Caokzu\Package\zhockon_0.3.2\core\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/SDL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/include/AL /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenGL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/pthreads/include /IC:/Python27/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/json/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/jsonrpc/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/include /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"zhockon-python.dir\Release\\" /Fd"C:/Users/Caokzu/Package/zhockon_0.3.2/library/Release/zhockon-python.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\Caokzu\Package\zhockon_0.3.2\core\bindings.cc  /Zm1000 -w 
+cl : Command line warning D9025: overriding '/W3' with '/w'
+  bindings.cc
+Lib:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Caokzu\Package\zhockon_0.3.2\library\Release\zhockon-python.lib" /NOLOGO "zhockon-python.dir\Release\bindings.obj"
+  zhockon-python.vcxproj -> C:\Users\Caokzu\Package\zhockon_0.3.2\library\Release\zhockon-python.lib
+FinalizeBuildStatus:
+  Deleting file "zhockon-python.dir\Release\zhockon-python.unsuccessfulbuild".
+  Touching "zhockon-python.dir\Release\zhockon-python.lastbuildstate".
+Done Building Project "C:\Users\Caokzu\Package\zhockon_0.3.2\core\zhockon-python.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.98

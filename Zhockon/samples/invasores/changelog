@@ -1,0 +1,35 @@
+Versao 0.5 - 22/09/2003
+              Funcionamento basico
+Versao 0.6 - 23/09/2003
+              Ajuste e comentarios
+              Adicao de som
+              Melhoria das rotinas de impressao
+              Bugs de fechamento corrigidos
+              Tratamento de eventos melhorados
+Versao 0.7 - 24/09/2003
+              Melhoria nos graficos
+              Acentuacao do texto: contribuicao de Luis Braga (SciTE)
+              Imagem de titulo e fim feitas no GIMP
+              Novos graficos
+              Recarga de Misseis
+              Recarga de Resistencia
+              Nivel de dificuldade progressivo (mais inimigos a cada segundo a cada 10 segundos) :-)
+              Redutor de tiro (so se dispara uma vez a cada 3 frames ou 1/10 s
+Versao 0.8 -  12/04/2004
+              Suporte a Joystick (aceleracao fixa)
+              Suporte a Mouse (aceleracao variavel - max 15)
+              ESC sai
+              M misses (+1000)
+              R resistencia (+1000)
+Versao 0.9 - 05/03/2005
+              Fazendo Limpeza no codigo
+              Fazendo Isolamento da SDL em classes especificas
+              Divisao das classes em varios arquivos
+              Fazendo Classe de recursos (som e imagem)
+              Correcao do bug de Joystick [1157541]
+              Correcao do bug de Som (para micros sem som) [1157542]
+              Correcao de erro de path no Linux [1157558]
+              * - Alterna FullScreen
+              + - Proximo modo de video
+              - - Modo de video anterior
+              Estrelas cintilantes

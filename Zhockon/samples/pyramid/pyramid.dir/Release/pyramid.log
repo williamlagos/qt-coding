@@ -1,0 +1,26 @@
+﻿Build started 01/08/2011 02:31:12.
+Project "C:\Users\Caokzu\Package\zhockon_0.3.2\samples\pyramid\pyramid.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "pyramid.dir\Release\pyramid.lastbuildstate".
+InitializeBuildStatus:
+  Creating "pyramid.dir\Release\pyramid.unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/Users/Caokzu/Package/zhockon_0.3.2/samples/pyramid/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Caokzu\Package\zhockon_0.3.2\samples\pyramid\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/SDL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/include/AL /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenGL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/pthreads/include /IC:/Python27/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/json/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/jsonrpc/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/samples/pyramid/../../include /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"pyramid.dir\Release\\" /Fd"C:/Users/Caokzu/Package/zhockon_0.3.2/samples/pyramid/Release/pyramid.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\Caokzu\Package\zhockon_0.3.2\samples\pyramid\pyramid.cc  /Zm1000 -w 
+cl : Command line warning D9025: overriding '/W3' with '/w'
+  pyramid.cc
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Caokzu\Package\zhockon_0.3.2\samples\pyramid\Release\pyramid.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/SDL/lib /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/SDL/lib/Release /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/lib /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/lib/Release /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenGL/lib /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenGL/lib/Release /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/pthreads/lib /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/pthreads/lib/Release /LIBPATH:C:/Python27/libs /LIBPATH:C:/Python27/libs/Release /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/Release /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/samples/pyramid/../../library /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/samples/pyramid/../../library/Release kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\library\Release\zhockon.lib SDL.lib OpenAL32.lib alut.lib glut.lib /MANIFEST /ManifestFile:"pyramid.dir\Release\pyramid.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Caokzu\Package\zhockon_0.3.2\samples\pyramid\Release\pyramid.pdb" /SUBSYSTEM:WINDOWS /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Caokzu/Package/zhockon_0.3.2/samples/pyramid/Release/pyramid.lib" /MACHINE:X86 pyramid.dir\Release\pyramid.obj  /machine:X86 
+  pyramid.vcxproj -> C:\Users\Caokzu\Package\zhockon_0.3.2\samples\pyramid\Release\pyramid.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Caokzu\Package\zhockon_0.3.2\samples\pyramid\Release\pyramid.exe;#1" /manifest pyramid.dir\Release\pyramid.exe.intermediate.manifest
+FinalizeBuildStatus:
+  Deleting file "pyramid.dir\Release\pyramid.unsuccessfulbuild".
+  Touching "pyramid.dir\Release\pyramid.lastbuildstate".
+Done Building Project "C:\Users\Caokzu\Package\zhockon_0.3.2\samples\pyramid\pyramid.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.03

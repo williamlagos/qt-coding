@@ -1,0 +1,19 @@
+﻿Build started 31/07/2011 21:22:21.
+Project "C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\jsonrpc.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "jsonrpc.dir\Debug\jsonrpc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Lib:
+  All outputs are up-to-date.
+  jsonrpc.vcxproj -> C:\Users\Caokzu\Package\zhockon_0.3.2\library\Debug\jsonrpc.lib
+FinalizeBuildStatus:
+  Deleting file "jsonrpc.dir\Debug\jsonrpc.unsuccessfulbuild".
+  Touching "jsonrpc.dir\Debug\jsonrpc.lastbuildstate".
+Done Building Project "C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\jsonrpc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.12

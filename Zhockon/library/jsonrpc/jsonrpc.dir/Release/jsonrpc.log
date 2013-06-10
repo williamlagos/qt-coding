@@ -1,0 +1,40 @@
+﻿Build started 01/08/2011 02:30:45.
+Project "C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\jsonrpc.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "jsonrpc.dir\Release\jsonrpc.lastbuildstate".
+InitializeBuildStatus:
+  Creating "jsonrpc.dir\Release\jsonrpc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/Users/Caokzu/Package/zhockon_0.3.2/library/jsonrpc/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/jsonrpc/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/jsonrpc/../json/include /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"jsonrpc.dir\Release\\" /Fd"C:/Users/Caokzu/Package/zhockon_0.3.2/library/Release/jsonrpc.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\src\jsonrpc_client.cpp C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\src\jsonrpc_handler.cpp C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\src\jsonrpc_server.cpp C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\src\jsonrpc_tcpclient.cpp C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\src\jsonrpc_tcpserver.cpp C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\src\jsonrpc_udpclient.cpp C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\src\jsonrpc_udpserver.cpp C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\src\netstring.cpp C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\src\networking.cpp  /Zm1000 
+  jsonrpc_client.cpp
+  jsonrpc_handler.cpp
+  jsonrpc_server.cpp
+  jsonrpc_tcpclient.cpp
+  jsonrpc_tcpserver.cpp
+  jsonrpc_udpclient.cpp
+  jsonrpc_udpserver.cpp
+  netstring.cpp
+  networking.cpp
+  Generating Code...
+Lib:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Caokzu\Package\zhockon_0.3.2\library\Release\jsonrpc.lib" /NOLOGO jsonrpc.dir\Release\jsonrpc_client.obj
+  jsonrpc.dir\Release\jsonrpc_handler.obj
+  jsonrpc.dir\Release\jsonrpc_server.obj
+  jsonrpc.dir\Release\jsonrpc_tcpclient.obj
+  jsonrpc.dir\Release\jsonrpc_tcpserver.obj
+  jsonrpc.dir\Release\jsonrpc_udpclient.obj
+  jsonrpc.dir\Release\jsonrpc_udpserver.obj
+  jsonrpc.dir\Release\netstring.obj
+  jsonrpc.dir\Release\networking.obj
+  jsonrpc.vcxproj -> C:\Users\Caokzu\Package\zhockon_0.3.2\library\Release\jsonrpc.lib
+FinalizeBuildStatus:
+  Deleting file "jsonrpc.dir\Release\jsonrpc.unsuccessfulbuild".
+  Touching "jsonrpc.dir\Release\jsonrpc.lastbuildstate".
+Done Building Project "C:\Users\Caokzu\Package\zhockon_0.3.2\library\jsonrpc\jsonrpc.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.55

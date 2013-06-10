@@ -1,0 +1,39 @@
+﻿Build started 01/08/2011 02:30:54.
+Project "C:\Users\Caokzu\Package\zhockon_0.3.2\core\zhockon.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "zhockon.dir\Release\zhockon.lastbuildstate".
+InitializeBuildStatus:
+  Creating "zhockon.dir\Release\zhockon.unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/Users/Caokzu/Package/zhockon_0.3.2/core/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Caokzu\Package\zhockon_0.3.2\core\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/SDL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/include/AL /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenGL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/pthreads/include /IC:/Python27/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/json/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/jsonrpc/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/include /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"zhockon.dir\Release\\" /Fd"C:/Users/Caokzu/Package/zhockon_0.3.2/library/Release/zhockon.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\Caokzu\Package\zhockon_0.3.2\core\zhockon.cc C:\Users\Caokzu\Package\zhockon_0.3.2\core\structure.cc C:\Users\Caokzu\Package\zhockon_0.3.2\core\platform.cc C:\Users\Caokzu\Package\zhockon_0.3.2\core\audio.cc C:\Users\Caokzu\Package\zhockon_0.3.2\core\graphics.cc C:\Users\Caokzu\Package\zhockon_0.3.2\core\elements.cc C:\Users\Caokzu\Package\zhockon_0.3.2\core\physics.cc C:\Users\Caokzu\Package\zhockon_0.3.2\core\player.cc  /Zm1000 -w 
+cl : Command line warning D9025: overriding '/W3' with '/w'
+  zhockon.cc
+  structure.cc
+  platform.cc
+  audio.cc
+  graphics.cc
+  elements.cc
+  physics.cc
+  player.cc
+  Generating Code...
+Lib:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\Users\Caokzu\Package\zhockon_0.3.2\library\Release\zhockon.lib" /NOLOGO zhockon.dir\Release\zhockon.obj
+  zhockon.dir\Release\structure.obj
+  zhockon.dir\Release\platform.obj
+  zhockon.dir\Release\audio.obj
+  zhockon.dir\Release\graphics.obj
+  zhockon.dir\Release\elements.obj
+  zhockon.dir\Release\physics.obj
+  zhockon.dir\Release\player.obj
+  zhockon.vcxproj -> C:\Users\Caokzu\Package\zhockon_0.3.2\library\Release\zhockon.lib
+FinalizeBuildStatus:
+  Deleting file "zhockon.dir\Release\zhockon.unsuccessfulbuild".
+  Touching "zhockon.dir\Release\zhockon.lastbuildstate".
+Done Building Project "C:\Users\Caokzu\Package\zhockon_0.3.2\core\zhockon.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.47

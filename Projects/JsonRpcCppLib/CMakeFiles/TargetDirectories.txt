@@ -1,0 +1,3 @@
+C:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib/CMakeFiles/ALL_BUILD.dir
+C:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib/CMakeFiles/ZERO_CHECK.dir
+C:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib/CMakeFiles/jsonrpc.dir

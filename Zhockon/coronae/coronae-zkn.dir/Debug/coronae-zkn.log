@@ -1,0 +1,20 @@
+﻿Build started 31/07/2011 21:22:23.
+Project "C:\Users\Caokzu\Package\zhockon_0.3.2\coronae\coronae-zkn.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Touching "coronae-zkn.dir\Debug\coronae-zkn.unsuccessfulbuild".
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/SDL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/include/AL /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenGL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/pthreads/include /IC:/Python27/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/json/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/jsonrpc/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/include /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"coronae-zkn.dir\Debug\\" /Fd"C:/Users/Caokzu/Package/zhockon_0.3.2/library/Debug/coronae-zkn.pdb" /Gd /TP /analyze- /errorReport:prompt "C:\Users\Caokzu\Package\zhockon_0.3.2\coronae\coronae-zkn.cc"  /Zm1000 -w -w 
+cl : Command line warning D9025: overriding '/W3' with '/w'
+  coronae-zkn.cc
+c:\users\caokzu\package\zhockon_0.3.2\library\sdl\include\sdl\SDL_config_win32.h(36): error C2632: 'short' followed by 'short' is illegal
+c:\users\caokzu\package\zhockon_0.3.2\library\sdl\include\sdl\SDL_config_win32.h(38): error C2632: 'int' followed by 'int' is illegal
+c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302): error C2733: second C linkage of overloaded function 'closesocket' not allowed
+          c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\io.h(302) : see declaration of 'closesocket'
+c:\python27\include\pyconfig.h(201): error C2632: 'int' followed by 'int' is illegal
+Done Building Project "C:\Users\Caokzu\Package\zhockon_0.3.2\coronae\coronae-zkn.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:01.99

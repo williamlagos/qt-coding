@@ -1,0 +1,26 @@
+﻿Build started 01/08/2011 02:31:14.
+Project "C:\Users\Caokzu\Package\zhockon_0.3.2\samples\allegro\allegro-coronae.vcxproj" on node 2 (rebuild target(s)).
+_PrepareForClean:
+  Deleting file "allegro-coronae.dir\Release\allegro-coronae.lastbuildstate".
+InitializeBuildStatus:
+  Creating "allegro-coronae.dir\Release\allegro-coronae.unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  Building Custom Rule C:/Users/Caokzu/Package/zhockon_0.3.2/samples/allegro/CMakeLists.txt
+  CMake does not need to re-run because C:\Users\Caokzu\Package\zhockon_0.3.2\samples\allegro\CMakeFiles\generate.stamp is up-to-date.
+ClCompile:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/SDL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/include/AL /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenGL/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/pthreads/include /IC:/Python27/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/json/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/library/jsonrpc/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/include /IC:/Users/Caokzu/Package/zhockon_0.3.2/samples/allegro/../.. /IC:/Users/Caokzu/Package/zhockon_0.3.2/samples/allegro/../../library/zhockon /IC:/Users/Caokzu/Package/zhockon_0.3.2/samples/allegro/../../library/allegro/include /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"allegro-coronae.dir\Release\\" /Fd"C:/Users/Caokzu/Package/zhockon_0.3.2/samples/allegro/Release/allegro-coronae.pdb" /Gd /TP /analyze- /errorReport:prompt C:\Users\Caokzu\Package\zhockon_0.3.2\samples\allegro\adapter.cc  /Zm1000 -w 
+cl : Command line warning D9025: overriding '/W3' with '/w'
+  adapter.cc
+Link:
+  c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Caokzu\Package\zhockon_0.3.2\samples\allegro\Release\allegro-coronae.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/SDL/lib /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/SDL/lib/Release /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/lib /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenAL/lib/Release /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenGL/lib /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/OpenGL/lib/Release /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/pthreads/lib /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/pthreads/lib/Release /LIBPATH:C:/Python27/libs /LIBPATH:C:/Python27/libs/Release /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/library/Release /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/samples/allegro/../../library /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/samples/allegro/../../library/Release /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/samples/allegro/../../library/allegro/lib /LIBPATH:C:/Users/Caokzu/Package/zhockon_0.3.2/samples/allegro/../../library/allegro/lib/Release kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib ..\..\library\Release\coronae.lib alleg.lib pthread.lib ..\..\library\Release\jsonrpc.lib ..\..\library\Release\json.lib Ws2_32.lib /MANIFEST /ManifestFile:"allegro-coronae.dir\Release\allegro-coronae.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Caokzu\Package\zhockon_0.3.2\samples\allegro\Release\allegro-coronae.pdb" /SUBSYSTEM:WINDOWS /STACK:"10000000" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/Caokzu/Package/zhockon_0.3.2/samples/allegro/Release/allegro-coronae.lib" /MACHINE:X86 "allegro-coronae.dir\Release\adapter.obj"  /machine:X86 
+  allegro-coronae.vcxproj -> C:\Users\Caokzu\Package\zhockon_0.3.2\samples\allegro\Release\allegro-coronae.exe
+Manifest:
+  C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Caokzu\Package\zhockon_0.3.2\samples\allegro\Release\allegro-coronae.exe;#1" /manifest "allegro-coronae.dir\Release\allegro-coronae.exe.intermediate.manifest"
+FinalizeBuildStatus:
+  Deleting file "allegro-coronae.dir\Release\allegro-coronae.unsuccessfulbuild".
+  Touching "allegro-coronae.dir\Release\allegro-coronae.lastbuildstate".
+Done Building Project "C:\Users\Caokzu\Package\zhockon_0.3.2\samples\allegro\allegro-coronae.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.23

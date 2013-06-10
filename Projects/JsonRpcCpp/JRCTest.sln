@@ -1,0 +1,65 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JsonRpcCppSample", "JsonRpcCpp.vcproj", "{B895C466-9EBC-4035-90AC-A59D6C917EC3}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JsonCppLib", "..\..\..\Downloads\jsoncpp-src-0.5.0\makefiles\vs71\lib_json.vcproj", "{B84F7231-16CE-41D8-8C08-7B523FF4225B}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JsonRpcCppLib", "..\JsonRpcCppLib\jsonrpc.vcproj", "{76F366AC-DA5A-4831-9D7A-87899B82932C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JsonRpcCppSampleClient", "..\JsonRpcCppSampleClient\JsonRpcCppSampleClient.vcproj", "{919174E3-C920-4DBE-B9FE-657052A0C35D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		dummy|Win32 = dummy|Win32
+		MinSizeRel|Win32 = MinSizeRel|Win32
+		Release|Win32 = Release|Win32
+		RelWithDebInfo|Win32 = RelWithDebInfo|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B895C466-9EBC-4035-90AC-A59D6C917EC3}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B895C466-9EBC-4035-90AC-A59D6C917EC3}.Debug|Win32.Build.0 = Debug|Win32
+		{B895C466-9EBC-4035-90AC-A59D6C917EC3}.dummy|Win32.ActiveCfg = Debug|Win32
+		{B895C466-9EBC-4035-90AC-A59D6C917EC3}.dummy|Win32.Build.0 = Debug|Win32
+		{B895C466-9EBC-4035-90AC-A59D6C917EC3}.MinSizeRel|Win32.ActiveCfg = Release|Win32
+		{B895C466-9EBC-4035-90AC-A59D6C917EC3}.MinSizeRel|Win32.Build.0 = Release|Win32
+		{B895C466-9EBC-4035-90AC-A59D6C917EC3}.Release|Win32.ActiveCfg = Release|Win32
+		{B895C466-9EBC-4035-90AC-A59D6C917EC3}.Release|Win32.Build.0 = Release|Win32
+		{B895C466-9EBC-4035-90AC-A59D6C917EC3}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{B895C466-9EBC-4035-90AC-A59D6C917EC3}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.Debug|Win32.ActiveCfg = Debug|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.Debug|Win32.Build.0 = Debug|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.dummy|Win32.ActiveCfg = dummy|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.dummy|Win32.Build.0 = dummy|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.MinSizeRel|Win32.ActiveCfg = dummy|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.MinSizeRel|Win32.Build.0 = dummy|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.Release|Win32.ActiveCfg = Release|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.Release|Win32.Build.0 = Release|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{B84F7231-16CE-41D8-8C08-7B523FF4225B}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+		{76F366AC-DA5A-4831-9D7A-87899B82932C}.Debug|Win32.ActiveCfg = Debug|Win32
+		{76F366AC-DA5A-4831-9D7A-87899B82932C}.Debug|Win32.Build.0 = Debug|Win32
+		{76F366AC-DA5A-4831-9D7A-87899B82932C}.dummy|Win32.ActiveCfg = Debug|Win32
+		{76F366AC-DA5A-4831-9D7A-87899B82932C}.dummy|Win32.Build.0 = Debug|Win32
+		{76F366AC-DA5A-4831-9D7A-87899B82932C}.MinSizeRel|Win32.ActiveCfg = MinSizeRel|Win32
+		{76F366AC-DA5A-4831-9D7A-87899B82932C}.MinSizeRel|Win32.Build.0 = MinSizeRel|Win32
+		{76F366AC-DA5A-4831-9D7A-87899B82932C}.Release|Win32.ActiveCfg = Release|Win32
+		{76F366AC-DA5A-4831-9D7A-87899B82932C}.Release|Win32.Build.0 = Release|Win32
+		{76F366AC-DA5A-4831-9D7A-87899B82932C}.RelWithDebInfo|Win32.ActiveCfg = RelWithDebInfo|Win32
+		{76F366AC-DA5A-4831-9D7A-87899B82932C}.RelWithDebInfo|Win32.Build.0 = RelWithDebInfo|Win32
+		{919174E3-C920-4DBE-B9FE-657052A0C35D}.Debug|Win32.ActiveCfg = Debug|Win32
+		{919174E3-C920-4DBE-B9FE-657052A0C35D}.Debug|Win32.Build.0 = Debug|Win32
+		{919174E3-C920-4DBE-B9FE-657052A0C35D}.dummy|Win32.ActiveCfg = Debug|Win32
+		{919174E3-C920-4DBE-B9FE-657052A0C35D}.dummy|Win32.Build.0 = Debug|Win32
+		{919174E3-C920-4DBE-B9FE-657052A0C35D}.MinSizeRel|Win32.ActiveCfg = Release|Win32
+		{919174E3-C920-4DBE-B9FE-657052A0C35D}.MinSizeRel|Win32.Build.0 = Release|Win32
+		{919174E3-C920-4DBE-B9FE-657052A0C35D}.Release|Win32.ActiveCfg = Release|Win32
+		{919174E3-C920-4DBE-B9FE-657052A0C35D}.Release|Win32.Build.0 = Release|Win32
+		{919174E3-C920-4DBE-B9FE-657052A0C35D}.RelWithDebInfo|Win32.ActiveCfg = Release|Win32
+		{919174E3-C920-4DBE-B9FE-657052A0C35D}.RelWithDebInfo|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

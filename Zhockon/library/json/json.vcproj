@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="json"
+	ProjectGUID="{16E8A7FF-BB30-4EAC-BF55-7D468272A6D5}"
+	Keyword="Win32Proj">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="json.dir\Debug"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000 -static"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\include&quot;;"
+				BasicRuntimeChecks="3"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="0"
+				Optimization="0"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:\Documents and Settings\William\Meus documentos\Zhockon\library\Debug/json.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\include&quot;;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="C:\Documents and Settings\William\Meus documentos\Zhockon\library\Debug\json.lib"/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="json.dir\Release"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000 -static"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\include&quot;;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="2"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:\Documents and Settings\William\Meus documentos\Zhockon\library\Release/json.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\include&quot;;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="C:\Documents and Settings\William\Meus documentos\Zhockon\library\Release\json.lib"/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="json.dir\MinSizeRel"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000 -static"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\include&quot;;"
+				CompileAs="2"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:\Documents and Settings\William\Meus documentos\Zhockon\library\MinSizeRel/json.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\include&quot;;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="C:\Documents and Settings\William\Meus documentos\Zhockon\library\MinSizeRel\json.lib"/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="json.dir\RelWithDebInfo"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="FALSE"
+			CharacterSet="2">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000 -static"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\include&quot;;"
+				CompileAs="2"
+				DebugInformationFormat="3"
+				ExceptionHandling="1"
+				InlineFunctionExpansion="1"
+				Optimization="2"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="TRUE"
+				WarningLevel="3"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:\Documents and Settings\William\Meus documentos\Zhockon\library\RelWithDebInfo/json.pdb"
+/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\include&quot;;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="FALSE"
+				TargetEnvironment="1"
+				GenerateStublessProxies="TRUE"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="C:\Documents and Settings\William\Meus documentos\Zhockon\library\RelWithDebInfo\json.lib"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+			<File
+				RelativePath="C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeLists.txt">
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Documents and Settings/William/Meus documentos/Zhockon/library/json/CMakeLists.txt"
+					CommandLine="&quot;C:\Arquivos de programas\CMake 2.8\bin\cmake.exe&quot; &quot;-HC:/Documents and Settings/William/Meus documentos/Zhockon&quot; &quot;-BC:/Documents and Settings/William/Meus documentos/Zhockon&quot; --check-stamp-file &quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeFiles\generate.stamp&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeLists.txt&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeLists.txt&quot;;"
+					Outputs="C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Documents and Settings/William/Meus documentos/Zhockon/library/json/CMakeLists.txt"
+					CommandLine="&quot;C:\Arquivos de programas\CMake 2.8\bin\cmake.exe&quot; &quot;-HC:/Documents and Settings/William/Meus documentos/Zhockon&quot; &quot;-BC:/Documents and Settings/William/Meus documentos/Zhockon&quot; --check-stamp-file &quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeFiles\generate.stamp&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeLists.txt&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeLists.txt&quot;;"
+					Outputs="C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="MinSizeRel|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Documents and Settings/William/Meus documentos/Zhockon/library/json/CMakeLists.txt"
+					CommandLine="&quot;C:\Arquivos de programas\CMake 2.8\bin\cmake.exe&quot; &quot;-HC:/Documents and Settings/William/Meus documentos/Zhockon&quot; &quot;-BC:/Documents and Settings/William/Meus documentos/Zhockon&quot; --check-stamp-file &quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeFiles\generate.stamp&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeLists.txt&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeLists.txt&quot;;"
+					Outputs="C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="RelWithDebInfo|Win32">
+					<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Documents and Settings/William/Meus documentos/Zhockon/library/json/CMakeLists.txt"
+					CommandLine="&quot;C:\Arquivos de programas\CMake 2.8\bin\cmake.exe&quot; &quot;-HC:/Documents and Settings/William/Meus documentos/Zhockon&quot; &quot;-BC:/Documents and Settings/William/Meus documentos/Zhockon&quot; --check-stamp-file &quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeFiles\generate.stamp&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError"
+					AdditionalDependencies="&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeLists.txt&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeLists.txt&quot;;"
+					Outputs="C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\CMakeFiles\generate.stamp"/>
+				</FileConfiguration>
+			</File>
+		<Filter
+			Name="Source Files"
+			Filter="">
+			<File
+				RelativePath="C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\src\json_reader.cpp">
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\src\json_value.cpp">
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\William\Meus documentos\Zhockon\library\json\src\json_writer.cpp">
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

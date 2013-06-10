@@ -1,0 +1,19 @@
+﻿Build started 31/07/2011 21:22:22.
+Project "C:\Users\Caokzu\Package\zhockon_0.3.2\core\zhockon-python.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "zhockon-python.dir\Debug\zhockon-python.unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Lib:
+  All outputs are up-to-date.
+  zhockon-python.vcxproj -> C:\Users\Caokzu\Package\zhockon_0.3.2\library\Debug\zhockon-python.lib
+FinalizeBuildStatus:
+  Deleting file "zhockon-python.dir\Debug\zhockon-python.unsuccessfulbuild".
+  Touching "zhockon-python.dir\Debug\zhockon-python.lastbuildstate".
+Done Building Project "C:\Users\Caokzu\Package\zhockon_0.3.2\core\zhockon-python.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.26

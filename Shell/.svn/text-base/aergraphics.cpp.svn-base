@@ -1,0 +1,96 @@
+#include "aeroshell.h"
+
+GraphicsDialog::GraphicsDialog(QGraphicsView *poGraphicsView,AERoshell *poParent,Qt::WindowFlags flags) : QDialog(NULL,flags)
+{
+  m_poGraphicsView = poGraphicsView;
+  m_poParent = poParent;
+  connect(this,SIGNAL(saved(QRect)),
+          m_poParent,SLOT(saveDialogOptions(QRect)));
+}
+
+GraphicsDialog::~GraphicsDialog()
+{
+  delete m_poGraphicsView;
+  delete m_poParent;
+}
+
+void GraphicsDialog::showWindow(QGraphicsView *poGraphicsView)
+{
+  m_poGraphicsView = poGraphicsView;
+  QByteArray oGeometry = m_poParent->m_oPlotGeometry;
+  restoreGeometry(m_poParent->m_oPlotGeometry);
+  this->show();
+}
+
+void GraphicsDialog::resizeEvent(QResizeEvent *event)
+{
+  m_poGraphicsView->resize(this->width(),this->height());
+  QDialog::resizeEvent(event);
+}
+
+void GraphicsDialog::closeEvent(QCloseEvent *event)
+{
+  m_poParent->m_oPlotGeometry = saveGeometry();
+  m_poParent->m_bPlotReady = false;
+  QDialog::closeEvent(event);
+}
+  
+
+AERgraphics::AERgraphics(QGraphicsScene *poScene,QWidget *poParent) : QGraphicsView(poScene,poParent)
+{
+  resize(poParent->size());
+  m_poScene = poScene;
+  m_nViewX = size().width()/2.0;
+  m_nViewY = size().height()/2.0;
+  this->setHorizontalScrollBarPolicy(Qt::ScrollBarAlwaysOn);
+  this->prepareScene();
+  Y = m_nViewY-(m_nViewY*0.05); X = m_nViewX-(m_nViewX*0.05);
+}
+
+AERgraphics::~AERgraphics()
+{
+
+}
+
+void AERgraphics::keyPressEvent(QKeyEvent *ke)
+{
+  int nNativeKey = ke->nativeVirtualKey();
+
+  if (nNativeKey == 13) {
+    m_poScene->addLine(QLineF(X,Y,X+5,Y-5));
+    if(-Y > (size().height()/2.0)-15) {
+      Y += 5; X -= 5;
+    } else if(Y < 0.0) {
+      Y -= 5; X += 5;
+    } else {
+      Y -= 5; X += 5;
+    }
+    this->horizontalScrollBar()->setSliderPosition(m_nViewX);
+    this->updateLines();
+  }
+}
+
+void AERgraphics::resizeEvent(QResizeEvent *poEvent)
+{
+  fitInView(m_poScene->sceneRect(),Qt::IgnoreAspectRatio);
+}
+
+void AERgraphics::prepareScene()
+{
+  double borderY = (m_nViewY*0.05); double viewY = m_nViewY;
+  double borderX = (m_nViewX*0.05); double viewX = m_nViewX;
+  m_poYAxis = m_poScene->addLine(QLineF(-(viewX)+borderX,+(viewY),
+                                        -(viewX)+borderX,-(viewY)));
+  m_poXAxis = m_poScene->addLine(QLineF(-(viewX),viewY-borderY,
+                                        +(viewX),viewY-borderY));
+}
+
+void AERgraphics::updateLines()
+{
+  m_nViewX = sceneRect().width()/2.0;
+  m_nViewY = sceneRect().height()/2.0;
+  double borderY = (m_nViewY*0.05); double viewY = m_nViewY;
+  double borderX = (m_nViewX*0.05); double viewX = m_nViewX;
+  m_poYAxis->setLine(-viewX+borderX,viewY,-viewX+borderX,-viewY);
+  m_poXAxis->setLine(-viewX,viewY-borderY,viewX,viewY-borderY);
+}

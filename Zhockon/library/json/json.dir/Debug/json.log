@@ -1,0 +1,19 @@
+﻿Build started 31/07/2011 21:22:21.
+Project "C:\Users\Caokzu\Package\zhockon_0.3.2\library\json\json.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "json.dir\Debug\json.unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Lib:
+  All outputs are up-to-date.
+  json.vcxproj -> C:\Users\Caokzu\Package\zhockon_0.3.2\library\Debug\json.lib
+FinalizeBuildStatus:
+  Deleting file "json.dir\Debug\json.unsuccessfulbuild".
+  Touching "json.dir\Debug\json.lastbuildstate".
+Done Building Project "C:\Users\Caokzu\Package\zhockon_0.3.2\library\json\json.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.14

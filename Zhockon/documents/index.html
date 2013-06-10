@@ -1,0 +1,40 @@
+<TITLE>Zhockon Platform Documentation</TITLE>
+<HEAD><B><FONT SIZE=5>Zhockon Platform Documentation</FONT></B></HEAD>
+<BODY>
+<BR>Zhockon is a game development platform written in Python, CPython and C++. It itends to be an alternative to DirectX+XNA, by the use of technologies OpenGL, OpenAL, SDL and Qt, integrated with technologies such as OGRE, Blender, OSG, and much more.</BR>
+<P><div id="wiki-content">
+  <div class="wrap">
+  <div id="wiki-body" class="gollum-markdown-content instapaper_body">
+    <div id="template">
+      <p>The platform is basically divided into a simple element called <strong>Module</strong>. Internal libs and apps are made by them. They are grouped by <strong>Packages</strong> and can be derived to a Library, interacting with low-level access to SDL+OGL+OAL and other loaded libraries, or to a Binding, accessing interfaces such as Python, Qt and Web, like the example above:</p>
+
+<ul>
+<li>Zhockon::Audio::OpenAL <strong>[Library]</strong>
+</li>
+<li>Zhockon::Audio::3DSound <strong>[Module]</strong>
+</li>
+<li>Zhockon::Audio::Python <strong>[Binding]</strong>
+</li>
+</ul><p>Zhockon is one of the three <strong>Scopes</strong> present on the platform. The other two are Phenomena and Coronae, that provides the same structure of Packages and Modules. So we have the following relation: Scope-&gt;Package-&gt;Module, where Module can be himself or a Library or a Binding. Simple, isn't it? In code, the scopes are namespaces defined, packages are classes with references to modules objects.</p>
+
+<p>With the Binding derivation, we have application interfaces (APIs) to Qt, Python and Web to all of Packages in a single module, where we have function calls to modules as bridges between Python/C++, Qt/C++ and Python/Javascript. These function calls are optional for both sides and intends to guarantee more performance in interfaces if they are used. The main packages that compose Zhockon are the following:</p>
+
+<ul>
+<li>Zhockon::Audio: Simple and 3D sound manipulation</li>
+<li>Zhockon::Graphics: 2D and 3D animation rendering</li>
+<li>Zhockon::Input: Input handling</li>
+<li>Zhockon::Network: Network management</li>
+<li>Zhockon::Physics: Elements and collisions handling</li>
+</ul><p>The Modules are stored in runtime on a main tree, to ease the access and configuration for all of them. We have the same structure to <strong>Python API</strong>, <strong>Qt API</strong> and <strong>Web API</strong>, when they are used separately. The three interfaces can also be combined, for example, Python+Qt, thanks to PySide technology, used as a bridge to communicate both of them.</p>
+
+<ul>
+<li>High-Level: Web API &lt;-&gt; Python API &lt;-&gt; Qt API</li>
+<li>Platform: Coronae+Zhockon+Phenomena</li>
+<li>Low-Level: OpenGL/OpenAL/SDL</li>
+</ul><p>At this moment, the platform is storing information and settings by the ConfigParser and Pickle, but they will be replaced to <strong>JSON</strong>, the standard serialization format of Zhockon, and the data probably will be managed with an integration between the scopes and a document-oriented database, such as MongoDB or CouchDB, with their respectives interfaces.</p>
+
+    </div>
+  </div>
+  </div>
+</div></P>
+</BODY>

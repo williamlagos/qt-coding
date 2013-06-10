@@ -1,0 +1,18 @@
+
+
+
+
+NovoEvento 34, 1.5, "teste", <ball>
+
+/event <ball> : EventoTeste 1.0]
+
+/evt NovoEvento 34, 1.5, "teste", <ball>
+/evt NovoEvento 34, 1.5, "teste", <ball>
+
+
+/quit
+/help
+
+/listobj
+
+/evt <$script_lava_StageControlVirtual*> : evt_TongueAttackCanceled

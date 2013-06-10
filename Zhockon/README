@@ -1,0 +1,10 @@
+Zhockon 0.3.2 - Alpha release
+Written in C++ and other technologies
+Escrito em C++ e outras tecnologias
+
+Zhockon is a platform for entertainment content development, like games, animations and apps with rich user experience. It unites libraries from three portable technologies (OpenGL, OpenAL and SDL) beyond the core and interfaces for Qt, Python, and Web. The framework has structure of input and event handling, graphics, sound, everything that your application need to be more interactive and interesting for the user. For connecting external technologies to Zhockon, we have Coronae, that made integrations with most of known services, be it in local or spread in the internet through JSON-RPC. With Phenomena your app will be more fast exactly where do you need, using optimizations with technologies like OpenCL and Threads.
+
+Zhockon é uma plataforma para desenvolvimento de conteúdo de entretenimento, como games e animações, assim como aplicativos com uma rica experiência para o usuário. Ela reúne bibliotecas de três tecnologias portáteis (OpenGL, OpenAL e SDL) por meio do núcleo e interfaces para Qt, Python e Web. O framework dispõe de estrutura para tratamento de entrada, eventos, gráficos, som, tudo o que o seu aplicativo precisa para ser mais interativo e interessante para o usuário. Para conectar-se a tecnologias externas ao Zhockon, temos o Coronae, que realiza integrações com os mais diversos serviços, esteja ele no local ou espalhado pela internet por meio do JSON-RPC. Com o Phenomena, seu app ficará mais veloz exatamente onde necessita, usando otimizações com tecnologias como o OpenCL e Threads.
+
+All projects are of authority and responsibility of their respective authors.
+Todos os projetos de terceiros são de responsabilidade de seus respectivos autores.

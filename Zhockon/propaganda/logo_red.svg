@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="562.65497"
+   height="333.05255"
+   id="svg3666"
+   version="1.1"
+   inkscape:version="0.48.0 r9654"
+   sodipodi:docname="logo_red.svg">
+  <defs
+     id="defs3668">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 526.18109 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="744.09448 : 526.18109 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78739 : 1"
+       id="perspective3674" />
+    <inkscape:perspective
+       id="perspective4196"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+    <inkscape:perspective
+       id="perspective4250"
+       inkscape:persp3d-origin="0.5 : 0.33333333 : 1"
+       inkscape:vp_z="1 : 0.5 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_x="0 : 0.5 : 1"
+       sodipodi:type="inkscape:persp3d" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="376.98716"
+     inkscape:cy="178.65387"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1280"
+     inkscape:window-height="752"
+     inkscape:window-x="-4"
+     inkscape:window-y="-3"
+     inkscape:window-maximized="1"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0">
+    <sodipodi:guide
+       orientation="0,1"
+       position="286.0435,185.16194"
+       id="guide4234" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="304.97207,194.81599"
+       id="guide4236" />
+    <sodipodi:guide
+       orientation="0,1"
+       position="300.58352,190.22849"
+       id="guide4238" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="286.0435,248.74456"
+       id="guide4240" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="3.8662109e-07,66.863613"
+       id="guide4276" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="562.65497,75.954983"
+       id="guide4278" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="199.20983,108.71769"
+       id="guide3602" />
+    <sodipodi:guide
+       orientation="1,0"
+       position="373.96622,108.71769"
+       id="guide3604" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata3671">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-52.527931,-319.48275)">
+    <rect
+       style="fill:#ff0000;fill-opacity:1;stroke:none"
+       id="rect3606"
+       width="562.65497"
+       height="333.03159"
+       x="52.527931"
+       y="319.50372"
+       inkscape:export-filename="/home/william/Develop/git/zhockon/propaganda/path4232.png"
+       inkscape:export-xdpi="256.71625"
+       inkscape:export-ydpi="256.71625" />
+    <path
+       sodipodi:type="arc"
+       style="fill:none;stroke:#ffffff;stroke-width:16.64870644;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path3676"
+       sodipodi:cx="340.71429"
+       sodipodi:cy="485.93362"
+       sodipodi:rx="176.42857"
+       sodipodi:ry="176.42857"
+       d="m 517.14287,485.93362 c 0,97.43881 -78.98976,176.42858 -176.42858,176.42858 -97.43881,0 -176.42857,-78.98977 -176.42857,-176.42858 0,-97.43881 78.98976,-176.42857 176.42857,-176.42857 97.43882,0 176.42858,78.98976 176.42858,176.42857 z"
+       transform="matrix(0.90097087,0,0,0.90097087,31.597776,48.121582)"
+       inkscape:export-filename="/home/william/Develop/git/zhockon/propaganda/path4232.png"
+       inkscape:export-xdpi="256.71625"
+       inkscape:export-ydpi="256.71625" />
+    <path
+       sodipodi:nodetypes="cc"
+       id="path3652"
+       d="m 338.57143,467.37337 c 18.91037,18.91038 63.83188,62.97094 82.74225,81.88131"
+       style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/william/Develop/git/zhockon/propaganda/path4232.png"
+       inkscape:export-xdpi="256.71625"
+       inkscape:export-ydpi="256.71625" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 257.00282,549.25468 c 18.91038,-18.91037 62.65824,-62.97093 81.56861,-81.88131"
+       id="path3667"
+       sodipodi:nodetypes="cc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/william/Develop/git/zhockon/propaganda/path4232.png"
+       inkscape:export-xdpi="256.71625"
+       inkscape:export-ydpi="256.71625" />
+    <path
+       style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:square;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       d="m 259.01711,578.34158 c 18.45901,0 66.05925,0 84.51827,0 15.09807,0 60.53135,0 75.62942,0"
+       id="path2843"
+       sodipodi:nodetypes="csc"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/william/Develop/git/zhockon/propaganda/path4232.png"
+       inkscape:export-xdpi="256.71625"
+       inkscape:export-ydpi="256.71625" />
+    <path
+       sodipodi:nodetypes="cc"
+       id="path4232"
+       d="m 338.57143,467.37337 c 10e-6,-26.74331 -0.2211,-88.83324 -0.22111,-115.57655"
+       style="fill:none;stroke:#000000;stroke-width:15;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:connector-curvature="0"
+       inkscape:export-xdpi="256.71625"
+       inkscape:export-ydpi="256.71625" />
+  </g>
+</svg>

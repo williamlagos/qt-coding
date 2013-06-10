@@ -1,0 +1,19 @@
+﻿Build started 31/07/2011 21:23:26.
+Project "C:\Users\Caokzu\Package\zhockon_0.3.2\core\zhockon.vcxproj" on node 2 (build target(s)).
+InitializeBuildStatus:
+  Creating "zhockon.dir\Debug\zhockon.unsuccessfulbuild" because "AlwaysCreate" was specified.
+CustomBuild:
+  All outputs are up-to-date.
+ClCompile:
+  All outputs are up-to-date.
+Lib:
+  All outputs are up-to-date.
+  zhockon.vcxproj -> C:\Users\Caokzu\Package\zhockon_0.3.2\library\Debug\zhockon.lib
+FinalizeBuildStatus:
+  Deleting file "zhockon.dir\Debug\zhockon.unsuccessfulbuild".
+  Touching "zhockon.dir\Debug\zhockon.lastbuildstate".
+Done Building Project "C:\Users\Caokzu\Package\zhockon_0.3.2\core\zhockon.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.17

@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9,00"
+	Name="JsonRpcCppLib"
+	ProjectGUID="{76F366AC-DA5A-4831-9D7A-87899B82932C}"
+	Keyword="Win32Proj"
+	TargetFrameworkVersion="0"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="Debug"
+			IntermediateDirectory="jsonrpc.dir\Debug"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="0"
+				InlineFunctionExpansion="0"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\..\JsonCppLib\include&quot;;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				ExceptionHandling="1"
+				BasicRuntimeChecks="3"
+				RuntimeLibrary="1"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Debug"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\Debug/jsonrpc.pdb"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\&quot;Debug\&quot;"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\..\JsonCppLib\include&quot;;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\Debug\jsonrpc.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="Release"
+			IntermediateDirectory="jsonrpc.dir\Release"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="2"
+				InlineFunctionExpansion="2"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\..\JsonCppLib\include&quot;;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="Release"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\Release/jsonrpc.pdb"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;Release\&quot;"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\..\JsonCppLib\include&quot;;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\Release\jsonrpc.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="MinSizeRel|Win32"
+			OutputDirectory="MinSizeRel"
+			IntermediateDirectory="jsonrpc.dir\MinSizeRel"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="1"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\..\JsonCppLib\include&quot;;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="MinSizeRel"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\MinSizeRel/jsonrpc.pdb"
+				WarningLevel="3"
+				CompileAs="2"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;MinSizeRel\&quot;"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\..\JsonCppLib\include&quot;;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\MinSizeRel\jsonrpc.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+		<Configuration
+			Name="RelWithDebInfo|Win32"
+			OutputDirectory="RelWithDebInfo"
+			IntermediateDirectory="jsonrpc.dir\RelWithDebInfo"
+			ConfigurationType="4"
+			UseOfMFC="0"
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			CharacterSet="2"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+				MkTypLibCompatible="false"
+				TargetEnvironment="1"
+				GenerateStublessProxies="true"
+				TypeLibraryName="$(InputName).tlb"
+				OutputDirectory="$(IntDir)"
+				HeaderFileName="$(InputName).h"
+				DLLDataFileName=""
+				InterfaceIdentifierFileName="$(InputName)_i.c"
+				ProxyFileName="$(InputName)_p.c"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions=" /Zm1000"
+				Optimization="2"
+				InlineFunctionExpansion="1"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\..\JsonCppLib\include&quot;;"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				ExceptionHandling="1"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				AssemblerListingLocation="RelWithDebInfo"
+				ObjectFile="$(IntDir)\"
+				ProgramDataBaseFileName="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\RelWithDebInfo/jsonrpc.pdb"
+				WarningLevel="3"
+				DebugInformationFormat="3"
+				CompileAs="2"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\&quot;RelWithDebInfo\&quot;"
+				AdditionalIncludeDirectories="&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\..\JsonCppLib\include&quot;;"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLibrarianTool"
+				OutputFile="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\RelWithDebInfo\jsonrpc.lib"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			>
+			<File
+				RelativePath="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\jsonrpc_client.cpp"
+				>
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\jsonrpc_handler.cpp"
+				>
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\jsonrpc_server.cpp"
+				>
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\jsonrpc_tcpclient.cpp"
+				>
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\jsonrpc_tcpserver.cpp"
+				>
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\jsonrpc_udpclient.cpp"
+				>
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\jsonrpc_udpserver.cpp"
+				>
+			</File>
+			<File
+				RelativePath="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\netstring.cpp"
+				>
+			</File>
+			<File
+				RelativePath=".\networking.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			>
+			<File
+				RelativePath=".\jsonrpc.h"
+				>
+			</File>
+			<File
+				RelativePath=".\jsonrpc_client.h"
+				>
+			</File>
+			<File
+				RelativePath=".\jsonrpc_common.h"
+				>
+			</File>
+			<File
+				RelativePath=".\jsonrpc_handler.h"
+				>
+			</File>
+			<File
+				RelativePath=".\jsonrpc_server.h"
+				>
+			</File>
+			<File
+				RelativePath=".\jsonrpc_tcpclient.h"
+				>
+			</File>
+			<File
+				RelativePath=".\jsonrpc_tcpserver.h"
+				>
+			</File>
+			<File
+				RelativePath=".\jsonrpc_udpclient.h"
+				>
+			</File>
+			<File
+				RelativePath=".\jsonrpc_udpserver.h"
+				>
+			</File>
+			<File
+				RelativePath=".\netstring.h"
+				>
+			</File>
+			<File
+				RelativePath=".\networking.h"
+				>
+			</File>
+		</Filter>
+		<File
+			RelativePath="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeLists.txt"
+			>
+			<FileConfiguration
+				Name="Debug|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib/CMakeLists.txt"
+					CommandLine="&quot;C:\Arquivos de programas\CMake 2.8\bin\cmake.exe&quot; &quot;-HC:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib&quot; &quot;-BC:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib&quot; --check-stamp-file &quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\generate.stamp&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeLists.txt&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeSystem.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCCompiler.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCXXCompiler.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeRCCompiler.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeLists.txt&quot;;"
+					Outputs="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="Release|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib/CMakeLists.txt"
+					CommandLine="&quot;C:\Arquivos de programas\CMake 2.8\bin\cmake.exe&quot; &quot;-HC:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib&quot; &quot;-BC:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib&quot; --check-stamp-file &quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\generate.stamp&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeLists.txt&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeSystem.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCCompiler.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCXXCompiler.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeRCCompiler.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeLists.txt&quot;;"
+					Outputs="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="MinSizeRel|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib/CMakeLists.txt"
+					CommandLine="&quot;C:\Arquivos de programas\CMake 2.8\bin\cmake.exe&quot; &quot;-HC:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib&quot; &quot;-BC:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib&quot; --check-stamp-file &quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\generate.stamp&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeLists.txt&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeSystem.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCCompiler.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCXXCompiler.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeRCCompiler.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeLists.txt&quot;;"
+					Outputs="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+			<FileConfiguration
+				Name="RelWithDebInfo|Win32"
+				>
+				<Tool
+					Name="VCCustomBuildTool"
+					Description="Building Custom Rule C:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib/CMakeLists.txt"
+					CommandLine="&quot;C:\Arquivos de programas\CMake 2.8\bin\cmake.exe&quot; &quot;-HC:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib&quot; &quot;-BC:/Documents and Settings/William/Meus documentos/Visual Studio 2008/Projects/JsonRpcCppLib&quot; --check-stamp-file &quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\generate.stamp&quot;&#x0D;&#x0A;if errorlevel 1 goto :VCReportError&#x0D;&#x0A;"
+					AdditionalDependencies="&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeLists.txt&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeSystem.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCCompiler.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCXXCompiler.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeSystemSpecificInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeGenericSystem.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\WindowsPaths.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeRCCompiler.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeRCInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCXXInformation.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\Windows-cl.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCPlatform.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\CMakeCXXPlatform.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\Platform\cl.cmake&quot;;&quot;C:\Arquivos de programas\CMake 2.8\share\cmake-2.8\Modules\CMakeCommonLanguageInclude.cmake&quot;;&quot;C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeLists.txt&quot;;"
+					Outputs="C:\Documents and Settings\William\Meus documentos\Visual Studio 2008\Projects\JsonRpcCppLib\CMakeFiles\generate.stamp"
+				/>
+			</FileConfiguration>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

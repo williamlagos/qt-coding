@@ -1,0 +1,203 @@
+10
+
+dir
+0
+svn://pong/Code/aer/extern/JsonRpc/libjson/Source
+svn://pong
+add
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+683595d9-5441-4540-9dfb-414f9168b9c2
+
+libjson.cpp
+file
+
+
+
+add
+
+JSONNode_Mutex.cpp
+file
+
+
+
+add
+
+JSONMemory.cpp
+file
+
+
+
+add
+
+JSONWorker.cpp
+file
+
+
+
+add
+
+JSONIterators.cpp
+file
+
+
+
+add
+
+JSONWriter.cpp
+file
+
+
+
+add
+
+JSONMemory.h
+file
+
+
+
+add
+
+JSONWorker.h
+file
+
+
+
+add
+
+internalJSONNode.cpp
+file
+
+
+
+add
+
+JSON_Base64.cpp
+file
+
+
+
+add
+
+JSONNode.cpp
+file
+
+
+
+add
+
+JSONValidator.cpp
+file
+
+
+
+add
+
+JSONDefs.h
+file
+
+
+
+add
+
+JSONDebug.cpp
+file
+
+
+
+add
+
+internalJSONNode.h
+file
+
+
+
+add
+
+JSONChildren.cpp
+file
+
+
+
+add
+
+JSON_Base64.h
+file
+
+
+
+add
+
+JSONValidator.h
+file
+
+
+
+add
+
+JSONNode.h
+file
+
+
+
+add
+
+JSONDebug.h
+file
+
+
+
+add
+
+JSONStream.cpp
+file
+
+
+
+add
+
+JSONChildren.h
+file
+
+
+
+add
+
+NumberToString.h
+file
+
+
+
+add
+
+JSONDefs
+dir
+
+
+
+add
+
+JSONStream.h
+file
+
+
+
+add
+

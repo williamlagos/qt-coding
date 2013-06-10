@@ -1,0 +1,7 @@
+CMAKE_MINIMUM_REQUIRED(VERSION 2.8)
+PROJECT(allegro-coronae)
+SET(DEPDIR "${CMAKE_CURRENT_SOURCE_DIR}/../..")
+INCLUDE_DIRECTORIES(${DEPDIR} ${DEPDIR}/library/zhockon ${DEPDIR}/library/allegro/include)
+LINK_DIRECTORIES(${DEPDIR}/library ${DEPDIR}/library/allegro/lib)
+ADD_EXECUTABLE(allegro-coronae ${APPTYPE} adapter.cc)
+TARGET_LINK_LIBRARIES(allegro-coronae coronae alleg pthread)
